@@ -1,0 +1,17 @@
+{
+  "env": {
+    "es2020": true,
+    "node": true
+  },
+  "extends": ["standard"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    "comma-dangle": "off",
+    "space-before-function-paren": "off",
+    "generator-star-spacing": ["error", { "before": false, "after": true }],
+    "yield-star-spacing": ["error", { "before": false, "after": true }]
+  }
+}
